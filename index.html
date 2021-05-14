@@ -22,6 +22,7 @@
         depth="1" 
         material="src: #wood"
         shadow 
+
         animation="property: rotation; 
                    to: 180 230 310; 
                    dur: 2000; 
@@ -46,6 +47,8 @@
         material="src: #grass; repeat: 10 10"
         shadow>
       </a-plane> 
+      <a-entity light="type:directional; castShadow:true;" position="1 1 1"></a-entity>
+<a-gltf-model src="tree.gltf" shadow="receive: false"></a-gltf-model>
     </a-scene>
   </body>
 </html>
